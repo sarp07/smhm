@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+   font-family: "RalewayFont";
+   src: url("../app/fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+   /* Add additional font formats if necessary */
+   /* Specify the correct path to the font files */
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap");
+
+* {
+   scroll-behavior: smooth !important;
+}
+body {
+   background-color: #fff6f6;
+   overflow-x: hidden;
+}
+body,
+html {
+   overflow-x: hidden;
+}
+* {
+   font-family: "RalewayFont", sans-serif;
+   font-style: normal;
+   box-sizing: border-box;
+}
+.drop-shadow {
+   box-shadow: -6px 8px 0px 0px #00000040;
+}
+
+.what-is-schemeckle-header-top {
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   z-index: 200;
+   /* border: 1.5px solid black;
+
+   border-image-source: linear-gradient(
+      186.26deg,
+      rgba(255, 255, 255, 0.5) 17.02%,
+      rgba(0, 0, 0, 0.5) 107.21%
+   ); */
+}
+.custom-outline {
+   text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+      -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.main-button-bottom {
+   top: 12px;
+   margin-left: -8px;
+   transition: 0.2s ease-in-out all;
+}
+.main-button-bottom.hovered {
+   top: 0px;
+   margin-left: -1px;
+}
+
+.gradient-overlay {
+   position: absolute;
+   left: 0;
+   width: 100%;
+   background: rgb(255, 246, 246);
+   background: linear-gradient(
+      180deg,
+      rgba(255, 246, 246, 1) 0%,
+      rgba(255, 246, 246, 1) 20%,
+      rgba(255, 255, 255, 0) 100%
+   );
+   z-index: 40;
+}
+@media screen and (max-width: 600px) {
+   .join-container {
+      background-image: url("../assets/jointhecommunityimage-mobile.png") !important;
+      background-size: 97vw;
+      background-repeat: no-repeat;
+   }
+   .footer {
+      /* Rectangle 294 */
+      background-image: url("../assets/footer-mobile.png") !important;
+      background-repeat: no-repeat;
+      background-size: cover !important;
+      width: 100vw !important;
+   }
+   .main-button-bottom {
+      top: 6px;
+      margin-left: -8px;
+   }
+}
+.flipped-octopus {
+   transform: scaleY(-1);
+   rotate: 45deg;
+}
+.flipped-right-img {
+   transform: scaleX(-1);
+}
+.join-container {
+   background-image: url("../assets/jointhecommunityimage.png");
+}
+.footer {
+   /* Rectangle 294 */
+   background-image: url("../assets/footerimage.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100vw;
+}
+.header-bottom {
+   transition: all ease 0.2s;
+}
+.header-container {
+   transition: all ease 0.2s;
+}
+
+@keyframes slide {
+   0% {
+      transform: translateX(0);
+   }
+   100% {
+      transform: translateX(-100%);
+   }
+}
+
+.logos {
+   overflow: hidden;
+   background: red;
+}
+
+.logos-slide {
+   display: grid;
+   grid-template-columns: repeat(10, 120px);
+   animation: 10s slide linear infinite;
+}
+
+.logo-img {
+   margin-right: 20px;
+}
+
+.scroll {
+   position: relative;
+   display: flex;
+   width: 100%;
+   overflow: hidden;
+}
+
+.scroll div {
+   white-space: nowrap;
+   animation: scroll 25s linear infinite;
+   animation-delay: calc(25s * -1);
+}
+
+.scroll div:nth-child(2) {
+   animation: scroll2 25s linear infinite;
+   animation-delay: calc(25s / -2);
+}
+
+@keyframes scroll {
+   0% {
+      transform: translateX(100%);
+   }
+
+   100% {
+      transform: translateX(-100%);
+   }
+}
+
+@keyframes scroll2 {
+   0% {
+      transform: translateX(0);
+   }
+
+   100% {
+      transform: translateX(-200%);
+   }
+}
+
+.ImageBox div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.logo-Image {
+   max-width: 250px;
+   scale: 0.8;
+   margin: 0px 20px;
+}
+@keyframes portal-turn {
+   0% {
+      transform: rotate(0deg);
+   }
+   100% {
+      transform: rotate(360deg);
+   }
+}
+.portal-turn {
+   animation: portal-turn 10s linear infinite;
+}
