@@ -5,11 +5,11 @@ import MainButton from "./common/mainButton";
 import MonstersImage from "../../assets/monsters.png";
 import PinkBlob from "../../assets/pinkblob.png";
 
-const Whatisschemeckle = () => {
+const Whatisschmeckle = () => {
    return (
       <div
          id="about"
-         className="what-is-schemeckle flex md:flex-row flex-col-reverse w-full md:pt-28 md:pb-28 pt-16 pb-8 md:gap-24 gap-0 relative md:h-[930px] h-auto md:px-0 px-4"
+         className="what-is-schmeckle flex md:flex-row flex-col-reverse w-full md:pt-28 md:pb-28 pt-16 pb-8 md:gap-24 gap-0 relative md:h-[930px] h-auto md:px-0 px-4"
       >
          <div className="image-container flex-[4] w-full md:pl-12 pl-0">
             <Image src={RickMorty} alt="Rick and Morty" />
@@ -24,13 +24,13 @@ const Whatisschemeckle = () => {
          <div className="text flex-[6] flex flex-col w-full relative md:h-[550px] h-auto">
             <div className="header">
                <div className="header-top absolute md:-top-[100px] -top-[24px] md:left-2 left-1">
-                  <h5 className="md:text-[110px] text-[36px] text-transparent what-is-schemeckle-header-top font-extrabold whitespace-nowrap">
-                     What is Schemeckle
+                  <h5 className="md:text-[110px] text-[36px] text-transparent what-is-schmeckle-header-top font-extrabold whitespace-nowrap">
+                     What is Schmeckle
                   </h5>
                   <div className="gradient-overlay md:h-[120px] h-[60px] md:top-[20px] top-[2px] -z-20"></div>
                </div>
                <h5 className="md:text-6xl text-[32px] font-extrabold">
-                  What is Schemeckle
+                  What is Schmeckle
                </h5>
             </div>
             <div className="text w-full md:pr-32 pr-0 md:text-[23px] text-[14px] font-medium text-mainBlack md:mt-12 mt-4">
@@ -54,12 +54,15 @@ const Whatisschemeckle = () => {
                </p>
                <br />
                <p>
-                  We`re here and waiting for you, because in the world of
+                  We're here and waiting for you, because in the world of
                   SchmecklesCoin, adventure awaits at every turn!
                </p>
             </div>
             <div className="button-container md:mt-12 mt-6">
-               <MainButton text="Join Community" />
+               <MainButton
+                  text="Join Community"
+                  link="https://t.me/Schmeckleofficial"
+               />
             </div>
          </div>
          <div className="monsters-image absolute md:right-12  md:left-auto -left-4 md:bottom-0 bottom-16">
@@ -73,4 +76,4 @@ const Whatisschemeckle = () => {
    );
 };
 
-export default Whatisschemeckle;
+export default Whatisschmeckle;

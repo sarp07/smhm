@@ -23,7 +23,11 @@ const JoinTheCommunity = () => {
                      on X for the latest news and insights.
                   </p>
                   <div className="button-container md:mt-6 mt-2 mb-4">
-                     <MainButton text="Join Community" isInvert={true} />
+                     <MainButton
+                        text="Join Community"
+                        isInvert={true}
+                        link="https://linktr.ee/schmeckletoken"
+                     />
                   </div>
                </div>
                <div className="image md:relative absolute w-full h-full">

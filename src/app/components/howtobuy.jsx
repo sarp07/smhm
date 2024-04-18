@@ -23,7 +23,7 @@ const HowToBuy = () => {
                <div className="header relative mt-20">
                   <div className="header-top absolute md:-top-[100px] -top-[24px] md:left-8 left-2">
                      <h5 className="md:text-[110px] text-[36px] text-transparent  font-extrabold whitespace-nowrap">
-                        <span className="what-is-schemeckle-header-top">
+                        <span className="what-is-schmeckle-header-top">
                            How to buy
                         </span>{" "}
                         <span className="custom-outline text-mainWhite">
@@ -39,12 +39,16 @@ const HowToBuy = () => {
                <p className="md:text-[23px] text-[14px] md:mt-12 mt-4">
                   $SHMT tokens are just a few steps away and you have to suit
                   your preference for a smooth start we recommend using MetaMask
-                  a popular wallet for Solona and Sol tokens once you`ve got
-                  matemask, purchase some Solona $SOL - this is what you`ll user
+                  a popular wallet for Solona and Sol tokens once you've got
+                  matemask, purchase some Solona $SOL - this is what you'll user
                   to trade for $SHMT.
                </p>
                <div className="button-container md:mt-16 mt-6">
-                  <MainButton text="Join Community" isInvert={true} />
+                  <MainButton
+                     text="Join Community"
+                     isInvert={true}
+                     link="https://t.me/Schmeckleofficial"
+                  />
                </div>
             </div>
          </div>

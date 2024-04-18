@@ -45,7 +45,7 @@ const Header = () => {
                      />
                   </a>
                   <h1 className="font-bold md:text-[30px] text-[20px]">
-                     Schemeckle
+                     Schmeckle
                   </h1>
                </div>
                <div className="right h-full items-center gap-16 md:flex hidden">
@@ -85,22 +85,17 @@ const Header = () => {
                <div className="links w-full flex flex-col text-[24px] font-bold text-center gap-1">
                   <a href="/">Home</a>
                   <div className="line h-[2px] w-full bg-black"></div>
-                  <a href="/">About</a>
+                  <a href="#about">About</a>
                   <div className="line h-[2px] w-full bg-black"></div>
-                  <a href="/">Features</a>
+                  <a href="#howtobuy">How To Buy</a>
                   <div className="line h-[2px] w-full bg-black"></div>
-                  <a href="/">Tokenomics</a>
+                  <a href="#tokenomics">Tokenomics</a>
                   <div className="line h-[2px] w-full bg-black"></div>
-                  <a href="/">Contact</a>
+                  <a href="#contact">Contact</a>
                   <div className="line h-[2px] w-full bg-black"></div>
                </div>
                <div className="social-icons flex gap-[10px] mt-7 mb-1 z-40 justify-center">
-                  <a href="/">
-                     <div className="icon md:h-[32px] h-[24px] md:w-[32px] w-[24px] bg-black md:rounded-lg rounded-[5px] flex items-center justify-center md:p-1 p-[3px]">
-                        <FaInstagram color="white" className="w-full h-auto" />
-                     </div>
-                  </a>
-                  <a href="/">
+                  <a href="https://t.me/Schmeckleofficial">
                      <div className="icon md:h-[32px] h-[24px] md:w-[32px] w-[24px] bg-black md:rounded-lg rounded-[5px] flex items-center justify-center md:p-1 p-[3px]">
                         <BiLogoTelegram
                            color="white"
@@ -108,17 +103,17 @@ const Header = () => {
                         />
                      </div>
                   </a>
-                  <a href="/">
+                  {/* <a href="/">
                      <div className="icon md:h-[32px] h-[24px] md:w-[32px] w-[24px] bg-black md:rounded-lg rounded-[5px] flex items-center justify-center md:p-1 p-[3px]">
                         <FaDiscord color="white" className="w-full h-auto" />
                      </div>
-                  </a>
-                  <a href="/">
+                  </a> */}
+                  <a href="https://www.youtube.com/@SchmeckleToken">
                      <div className="icon md:h-[32px] h-[24px] md:w-[32px] w-[24px] bg-black md:rounded-lg rounded-[5px] flex items-center justify-center md:p-1 p-[3px]">
                         <FaYoutube color="white" className="w-full h-auto" />
                      </div>
                   </a>
-                  <a href="/">
+                  <a href="https://twitter.com/Schmeckle_Token">
                      <div className="icon md:h-[32px] h-[24px] md:w-[32px] w-[24px] bg-black md:rounded-lg rounded-[5px] flex items-center justify-center md:p-1 p-[3px]">
                         <FaXTwitter color="white" className="w-full h-auto" />
                      </div>

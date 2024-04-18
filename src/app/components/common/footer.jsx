@@ -32,7 +32,7 @@ const Footer = () => {
          <div className="texts flex flex-col items-center h-full justify-end">
             <div className="title md:mt-12 mt-12">
                <h3 className="md:text-[50px] text-[18px] font-extrabold">
-                  Schemeckle
+                  Schmeckle
                </h3>
             </div>
             <div className="text text-center max-w-[800px] w-3/4 ">
@@ -44,27 +44,22 @@ const Footer = () => {
                </p>
             </div>
             <div className="icons flex items-center justify-center md:gap-4 gap-2 md:mb-3 mb-1 md:mt-5 mt-1">
-               <a href="/">
-                  <div className="icon md:h-[32px] h-[20px] md:w-[32px] w-[20px] bg-black md:rounded-lg rounded-[5px] flex items-center justify-center md:p-1 p-[3px]">
-                     <FaInstagram color="white" className="w-full h-auto" />
-                  </div>
-               </a>
-               <a href="/">
+               <a href="https://t.me/Schmeckleofficial">
                   <div className="icon md:h-[32px] h-[20px] md:w-[32px] w-[20px] bg-black md:rounded-lg rounded-[5px] flex items-center justify-center md:p-1 p-[3px]">
                      <BiLogoTelegram color="white" className="w-full h-auto" />
                   </div>
                </a>
-               <a href="/">
+               {/* <a href="/">
                   <div className="icon md:h-[32px] h-[20px] md:w-[32px] w-[20px] bg-black md:rounded-lg rounded-[5px] flex items-center justify-center md:p-1 p-[3px]">
                      <FaDiscord color="white" className="w-full h-auto" />
                   </div>
-               </a>
-               <a href="/">
+               </a> */}
+               <a href="https://www.youtube.com/@SchmeckleToken">
                   <div className="icon md:h-[32px] h-[20px] md:w-[32px] w-[20px] bg-black md:rounded-lg rounded-[5px] flex items-center justify-center md:p-1 p-[3px]">
                      <FaYoutube color="white" className="w-full h-auto" />
                   </div>
                </a>
-               <a href="/">
+               <a href="https://twitter.com/Schmeckle_Token">
                   <div className="icon md:h-[32px] h-[20px] md:w-[32px] w-[20px] bg-black md:rounded-lg rounded-[5px] flex items-center justify-center md:p-1 p-[3px]">
                      <FaXTwitter color="white" className="w-full h-auto" />
                   </div>

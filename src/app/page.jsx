@@ -10,7 +10,7 @@ import Tokenomics from "../app/components/tokenomics";
 import JoinTheCommunity from "../app/components/jointhecommunity";
 
 export const metadata = {
-   title: "Shemeckle Token - Rick and Morty Fans Token",
+   title: "Schmeckle Token - Rick and Morty Fans Token",
    description:
       "It is a platform for Rick and Morty fans to come together and have a fun and exciting crypto experience.",
    metadata: [

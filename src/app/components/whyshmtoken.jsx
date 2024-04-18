@@ -19,14 +19,14 @@ const Whyshmtoken = () => {
             <div className="header relative md:mb-24 mb-6">
                <div className="header-top absolute md:-top-[100px] -top-[24px] left-4 z-10">
                   <h5 className="md:text-[100px] text-[36px] text-transparent  font-extrabold whitespace-nowrap z-10">
-                     <span className="what-is-schemeckle-header-top z-10 ">
+                     <span className="what-is-schmeckle-header-top z-10 ">
                         Why
                      </span>
                      <span className="custom-outline text-mainWhite ml-6 z-10">
                         $
                      </span>
-                     <span className="what-is-schemeckle-header-top z-10 ">
-                        SHM Token
+                     <span className="what-is-schmeckle-header-top z-10 ">
+                        SHMT Token
                      </span>
                   </h5>
                   <div className="gradient-overlay md:h-[120px] h-[60px] md:top-[20px] top-[2px]"></div>
@@ -37,8 +37,8 @@ const Whyshmtoken = () => {
                      <span className="custom-outline text-mainYellow z-30">
                         $
                      </span>
-                     <span className="what-is-schemeckle-header-top text-mainYellow z-30">
-                        SHM
+                     <span className="what-is-schmeckle-header-top text-mainYellow z-30">
+                        SHMT
                      </span>{" "}
                      Token
                   </h5>
@@ -55,7 +55,7 @@ const Whyshmtoken = () => {
                </p>
             </div>
             <div className="button-container md:mt-20 mt-6">
-               <MainButton text="Buy $SHM" isInvert={true} />
+               <MainButton text="Buy $SHMT" isInvert={true} />
             </div>
          </div>
          <div className="right w-full md:mt-0 -mt-8">
