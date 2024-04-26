@@ -10,7 +10,7 @@ import Telegram from "../../assets/icons/telegram.png";
 import Twitter from "../../assets/icons/twitter.png";
 import Instagram from "../../assets/icons/instagram.png";
 import Hamburger from "hamburger-react";
-import { FaDiscord, FaInstagram, FaXTwitter, FaYoutube } from "react-icons/fa6";
+import { FaXTwitter, FaYoutube } from "react-icons/fa6";
 import { BiLogoTelegram } from "react-icons/bi";
 
 const Header = () => {
