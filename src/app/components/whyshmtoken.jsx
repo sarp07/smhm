@@ -46,12 +46,12 @@ const Whyshmtoken = () => {
             </div>
             <div className="text w-full max-w-[1750px]">
                <p className="md:text-[23px] text-[14px]">
-                  $SHM, designed with inspiration from the Rick and Morty
+                  $SHMT, designed with inspiration from the Rick and Morty
                   universe, is a fun and innovative token. Enter a world filled
                   with NFTs and become part of our community. With fair
-                  distribution and transparent economy, $SHM has promising
+                  distribution and transparent economy, $SHMT has promising
                   potential. Join us and take your place in the exciting journey
-                  of $SHM!
+                  of $SHMT!
                </p>
             </div>
             <div className="button-container md:mt-20 mt-6">

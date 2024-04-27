@@ -15,7 +15,6 @@
 }
 body {
    background-color: #fff6f6;
-   overflow-x: hidden;
 }
 body,
 html {
@@ -33,7 +32,7 @@ html {
 .what-is-schmeckle-header-top {
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
-   z-index: 200;
+   z-index: 50;
    /* border: 1.5px solid black;
 
    border-image-source: linear-gradient(
@@ -194,4 +193,49 @@ html {
 }
 .portal-turn {
    animation: portal-turn 10s linear infinite;
+}
+.tokenomics-table-line {
+   background: linear-gradient(180deg, #cc00ff 0%, #ff0000 100%);
+   border-radius: 10px;
+}
+.tokenomics-element-title {
+   background: -webkit-linear-gradient(90deg, #4532da 0%, #250d41 100%);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}
+.tokenomics-element-main-text {
+   color: #2400ff;
+   text-shadow: 3px 0px rgba(69, 49, 216, 1);
+}
+
+.text-inside-container-roadmap {
+   background: linear-gradient(black, black) padding-box,
+      linear-gradient(to left, #fd4e4e, #0500ff) border-box;
+   border: 5px solid transparent;
+   box-shadow: 0px 9px 0px 0px #00000040;
+
+   border-image-source: linear-gradient(270deg, #fd4e4e 0%, #0500ff 101.58%);
+}
+.tokenomics-line {
+   background: -webkit-linear-gradient(270deg, #000aff 0%, #000000 88.53%);
+   left: 50%;
+   transform: translate(-50%);
+   transition: all ease-in-out 0.8s;
+}
+@keyframes animated-roadmap {
+   from {
+      opacity: 0;
+      scale: 0.6;
+   }
+   to {
+      opacity: 1;
+      scale: 1;
+   }
+}
+.animated-roadmap {
+   animation: animated-roadmap 1s ease-in-out;
+}
+.tokenomics-main-page-container {
+   transition: height 2s ease;
+   overflow: hidden;
 }

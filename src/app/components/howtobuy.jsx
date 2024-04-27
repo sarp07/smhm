@@ -7,10 +7,10 @@ const HowToBuy = () => {
    return (
       <div
          id="howtobuy"
-         className="how-to-buy w-full flex md:h-[600px] h-auto px-4 justify-center md:flex-row flex-col-reverse md:mt-0 pt-24 -mt-12"
+         className="how-to-buy w-full flex md:h-[600px] h-auto px-4 justify-center md:flex-row flex-col-reverse md:-mt-8 pt-24 -mt-28"
       >
          <div className="container max-w-[1800px] flex md:gap-20 gap-2 md:flex-row flex-col-reverse">
-            <div className="image-container md:rounded-[84px] rounded-[32px] md:w-[600px] w-full md:h-auto h-auto flex-shrink-0">
+            <div className="image-container md:rounded-[84px] rounded-[32px] md:w-[600px] w-full md:h-auto h-auto flex-shrink-0 ">
                <Image
                   src={Howtobuyimage}
                   alt="How to Buy"
@@ -36,19 +36,15 @@ const HowToBuy = () => {
                      How to buy $SHMT
                   </h5>
                </div>
-               <p className="md:text-[23px] text-[14px] md:mt-12 mt-4">
+               <p className="md:text-[23px] text-[14px] md:mt-12 mt-4 ">
                   $SHMT tokens are just a few steps away and you have to suit
-                  your preference for a smooth start we recommend using MetaMask
+                  your preference for a smooth start we recommend using Phantom
                   a popular wallet for Solona and Sol tokens once you've got
-                  matemask, purchase some Solona $SOL - this is what you'll user
+                  phantom, purchase some Solona $SOL - this is what you'll user
                   to trade for $SHMT.
                </p>
                <div className="button-container md:mt-16 mt-6">
-                  <MainButton
-                     text="Join Community"
-                     isInvert={true}
-                     link="https://t.me/Schmeckleofficial"
-                  />
+                  <MainButton text="Buy $SHMT" isInvert={true} />
                </div>
             </div>
          </div>

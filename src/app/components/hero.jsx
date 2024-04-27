@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import LeftImage from "../../assets/left-image.png";
 import MainButton from "../../app/components/common/mainButton";
+import WalletAddressButton from "../../app/components/common/walletAddressButton";
 import WhitepaperIcon from "../../assets/icons/whitepaper.png";
 import Cart from "../../assets/icons/cart.png";
 
@@ -13,6 +14,7 @@ import RickAndMortyImage from "../../assets/rick-morty-main.png";
 import PortalImage from "../../assets/teleport.png";
 import OctopusLeft from "../../assets/octopus-left.png";
 import OctopusRight from "../../assets/octopus-right.png";
+import Copy from "../../assets/copy.png";
 import Yesil from "../../assets/yesil.png";
 import { FaDiscord, FaInstagram, FaXTwitter, FaYoutube } from "react-icons/fa6";
 import { BiLogoTelegram } from "react-icons/bi";
@@ -42,9 +44,10 @@ const Hero = () => {
                <div className="buttons flex md:mt-8 mt-4 md:gap-10 gap-4">
                   <MainButton
                      icon={WhitepaperIcon}
-                     text="Whitepaper"
+                     text="Tokenomics"
                      isInvert={true}
                      hasIcon={true}
+                     link="/tokenomics"
                   />
                   <MainButton
                      icon={Cart}
@@ -53,7 +56,16 @@ const Hero = () => {
                      hasIcon={true}
                   />
                </div>
-               <div className="social-icons flex md:gap-[10px] gap-[8px] md:mt-6 -mt-4 z-40">
+               <div className="wallet-address-button md:mt-6 -mt-5 md:mb-0 mb-2">
+                  <WalletAddressButton
+                     icon={Copy}
+                     hasIcon={true}
+                     isInvert={false}
+                     text="375fp38Luff7SegguJoQiFqUbdzHwu6opZonx47u3fQi"
+                     link="https://solscan.io/token/375fp38Luff7SegguJoQiFqUbdzHwu6opZonx47u3fQi"
+                  />
+               </div>
+               <div className="social-icons flex md:gap-[10px] gap-[8px] md:mt-2 -mt-4 z-40">
                   <a href="https://t.me/Schmeckleofficial">
                      <div className="icon md:h-[32px] h-[24px] md:w-[32px] w-[24px] bg-black md:rounded-lg rounded-[5px] flex items-center justify-center md:p-1 p-[3px]">
                         <BiLogoTelegram

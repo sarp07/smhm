@@ -9,7 +9,7 @@ const Tokenomics = () => {
       >
          <div className="header relative">
             <div className="header-top absolute md:-top-[110px] -top-[32px] md:-left-[156px] -left-[20px]">
-               <h5 className="md:text-[110px] text-[40px] text-transparent what-is-schemeckle-header-top font-extrabold whitespace-nowrap">
+               <h5 className="md:text-[110px] text-[40px] text-transparent what-is-schmeckle-header-top font-extrabold">
                   TOKENOMICS
                </h5>
                <div className="gradient-overlay md:h-[120px] h-[60px] md:top-[20px] top-[2px]"></div>

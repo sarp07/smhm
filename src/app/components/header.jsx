@@ -10,7 +10,7 @@ import Telegram from "../../assets/icons/telegram.png";
 import Twitter from "../../assets/icons/twitter.png";
 import Instagram from "../../assets/icons/instagram.png";
 import Hamburger from "hamburger-react";
-import { FaXTwitter, FaYoutube } from "react-icons/fa6";
+import { FaDiscord, FaInstagram, FaXTwitter, FaYoutube } from "react-icons/fa6";
 import { BiLogoTelegram } from "react-icons/bi";
 
 const Header = () => {
@@ -59,7 +59,7 @@ const Header = () => {
                      <a href="#howtobuy" className="hover:text-mainBorder">
                         How To Buy
                      </a>
-                     <a href="#tokenomics" className="hover:text-mainBorder">
+                     <a href="/tokenomics" className="hover:text-mainBorder">
                         Tokenomics
                      </a>
                      <a href="#contact" className="hover:text-mainBorder">
@@ -89,7 +89,7 @@ const Header = () => {
                   <div className="line h-[2px] w-full bg-black"></div>
                   <a href="#howtobuy">How To Buy</a>
                   <div className="line h-[2px] w-full bg-black"></div>
-                  <a href="#tokenomics">Tokenomics</a>
+                  <a href="/tokenomics">Tokenomics</a>
                   <div className="line h-[2px] w-full bg-black"></div>
                   <a href="#contact">Contact</a>
                   <div className="line h-[2px] w-full bg-black"></div>
