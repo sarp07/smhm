@@ -82,7 +82,7 @@ const Tokenomics = () => {
                         Sell tax
                      </h5>
                      <h3 className="tokenomics-element-main-text text-[32px] font-extrabold">
-                        1.4%
+                        0%
                      </h3>
                   </div>
                   <div className="tokenomics-table-line h-[90px] w-[6px]"></div>

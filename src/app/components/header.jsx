@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import HeaderButton from "./common/headerButton";
 import Image from "next/image";
 import Logo from "../../assets/logo.png";
@@ -13,29 +13,27 @@ import Hamburger from "hamburger-react";
 import { FaDiscord, FaInstagram, FaXTwitter, FaYoutube } from "react-icons/fa6";
 import { BiLogoTelegram } from "react-icons/bi";
 
+
 const Header = () => {
    const [menuOpen, setMenuOpen] = useState(false);
+   
    return (
       <div
-         className={`header-container relative mx-auto flex md:justify-center justify-start md:mt-[36px] mt-[24px] md:h-[124px] ${
-            menuOpen ? `h-[400px]` : `h-[80px]`
-         } md:w-full w-[95%]`}
+         className={`header-container relative mx-auto flex md:justify-center justify-start md:mt-[36px] mt-[24px] md:h-[124px] ${menuOpen ? `h-[400px]` : `h-[80px]`
+            } md:w-full w-[95%]`}
       >
          <div className="header-top ml-[24px] absolute w-full h-[102px] border-[4px] border-mainBorder bg-white rounded-[10px] max-w-[1800px] drop-shadow z-30 md:flex hidden"></div>
          <div
-            className={`header-bottom top-[14px] absolute w-full  md:h-[102px] overflow-y-hidden ${
-               menuOpen ? `h-[400px] pt-[6px]` : `h-[70px] md:pt-0 pt-[6px]`
-            }  border-[4px] border-mainBorder bg-white rounded-[10px] max-w-[1800px] drop-shadow flex items-center pr-[20px] pl-[16px] justify-between z-30 md:flex-row flex-col`}
+            className={`header-bottom top-[14px] absolute w-full  md:h-[102px] overflow-y-hidden ${menuOpen ? `h-[400px] pt-[6px]` : `h-[70px] md:pt-0 pt-[6px]`
+               }  border-[4px] border-mainBorder bg-white rounded-[10px] max-w-[1800px] drop-shadow flex items-center pr-[20px] pl-[16px] justify-between z-30 md:flex-row flex-col`}
          >
             <div
-               className={`top flex items-center justify-between w-full ${
-                  menuOpen ? `md:h-full h-full flex-grow-0` : `h-full`
-               }`}
+               className={`top flex items-center justify-between w-full ${menuOpen ? `md:h-full h-full flex-grow-0` : `h-full`
+                  }`}
             >
                <div
-                  className={`logo flex items-center gap-5 ${
-                     menuOpen ? `md:h-full h-full` : `h-full`
-                  }`}
+                  className={`logo flex items-center gap-5 ${menuOpen ? `md:h-full h-full` : `h-full`
+                     }`}
                >
                   <a href="/" className="md:h-full md:w-auto h-[48px] w-auto">
                      <Image
@@ -66,7 +64,7 @@ const Header = () => {
                         Contact
                      </a>
                   </div>
-                  <HeaderButton />
+                  <HeaderButton /> 
                </div>
                <div
                   className="menu-container cursor-pointer md:hidden flex"
