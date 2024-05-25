@@ -56,11 +56,8 @@ const Header = () => {
                      <a href="#about" className="hover:text-mainBorder">
                         About
                      </a>
-                     <a href="#howtobuy" className="hover:text-mainBorder">
+                     <a href="/airdrop" className="hover:text-mainBorder">
                         Airdrop
-                     </a>
-                     <a href="/" className="hover:text-mainBorder">
-                        Tokenomics
                      </a>
                      <a href="#contact" className="hover:text-mainBorder">
                         Contact
@@ -89,9 +86,7 @@ const Header = () => {
                   <div className="line h-[2px] w-full bg-black"></div>
                   <a href="#about">About</a>
                   <div className="line h-[2px] w-full bg-black"></div>
-                  <a href="#howtobuy">Airdrop</a>
-                  <div className="line h-[2px] w-full bg-black"></div>
-                  <a href="/">Tokenomics</a>
+                  <a href="/airdrop">Airdrop</a>
                   <div className="line h-[2px] w-full bg-black"></div>
                   <a href="#contact">Contact</a>
                   <div className="line h-[2px] w-full bg-black"></div>

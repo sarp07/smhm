@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import LeftImage from "../../assets/left-image.png";
 import MainButton from "../../app/components/common/mainButton";
+import TelegramButton from "../../app/components/common/telegramButton";
 import WalletAddressButton from "../../app/components/common/walletAddressButton";
 import WhitepaperIcon from "../../assets/icons/whitepaper.png";
 import Cart from "../../assets/icons/cart.png";
@@ -42,12 +43,11 @@ const Hero = () => {
                   </p>
                </div>
                <div className="buttons flex md:mt-8 mt-4 md:gap-10 gap-4">
-                  <MainButton
-                     icon={WhitepaperIcon}
-                     text="Tokenomics"
+                  <TelegramButton
+                     text="Telegram"
                      isInvert={true}
                      hasIcon={true}
-                     link="/"
+                     link="https://t.me/SchmeckleAnnouncement"
                   />
                   <MainButton
                      icon={Cart}

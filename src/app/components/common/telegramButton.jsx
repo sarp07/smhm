@@ -2,9 +2,9 @@
 
 import Image from "next/image";
 import React, { useState } from "react";
+import { BiLogoTelegram } from "react-icons/bi";
 
-
-const MainButton = ({ icon, text, isInvert, hasIcon, link }) => {
+const TelegramButton = ({ icon, text, isInvert, hasIcon, link }) => {
    const [buttonHover, setButtonHover] = useState(false);
    return (
       <div className="relative md:w-[300px] md:h-[100px] w-[150px] h-[80px]">
@@ -24,11 +24,10 @@ const MainButton = ({ icon, text, isInvert, hasIcon, link }) => {
                onMouseLeave={() => setButtonHover(false)}
             >
                {hasIcon ? (
-                  <Image
-                     src={icon}
+                  <BiLogoTelegram
                      alt="icon"
                      className={`md:h-[42px] w-auto h-[20px] ${
-                        buttonHover ? `` : `invert`
+                        buttonHover ? `` : ``
                      }`}
                   />
                ) : (
@@ -42,4 +41,4 @@ const MainButton = ({ icon, text, isInvert, hasIcon, link }) => {
    );
 };
 
-export default MainButton;
+export default TelegramButton;

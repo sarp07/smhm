@@ -90,6 +90,7 @@ html {
    transform: scaleY(-1);
    rotate: 45deg;
 }
+
 .flipped-right-img {
    transform: scaleX(-1);
 }
@@ -238,4 +239,32 @@ html {
 .tokenomics-main-page-container {
    transition: height 2s ease;
    overflow: hidden;
+}
+@keyframes snail-movement {
+   0% {
+      transform: translateX(200px); /* Move to the right */
+   }
+   49% {
+      transform: translateX(0px); /* Move back to the start */
+   }
+   50% {
+      transform: translateX(0px) scaleX(-1); /* Flip horizontally immediately */
+   }
+   99% {
+      transform: translateX(200px) scaleX(-1); /* Move to the right, still flipped */
+   }
+   100% {
+      transform: translateX(200px); /* Flip back to original position */
+   }
+}
+
+.snail-image-move-anim {
+   animation-name: snail-movement;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+}
+
+.swiper-scrollbar {
+   display: none;
 }
