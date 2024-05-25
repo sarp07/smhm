@@ -10,11 +10,6 @@
       "static/chunks/main-app.js",
       "static/css/css-node_modules_solana_wallet-adapter-react-ui_styles_css-src_app_globals_css-node_modules_n-214014.css",
       "static/chunks/app/layout.js"
-    ],
-    "/tokenomics/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/tokenomics/page.js"
     ]
   }
 }

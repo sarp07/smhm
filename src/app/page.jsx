@@ -28,10 +28,10 @@ export default function Home() {
          <Hero />
          <Logos />
          <Whatisschemeckle />
-         <NFTS />
+         {/* <NFTS /> */}
          <Whyshmtoken />
          <HowToBuy />
-         <Tokenomics />
+         {/* <Tokenomics /> */}
          <JoinTheCommunity />
       </main>
    );

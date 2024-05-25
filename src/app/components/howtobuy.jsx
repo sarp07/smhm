@@ -24,27 +24,22 @@ const HowToBuy = () => {
                   <div className="header-top absolute md:-top-[100px] -top-[24px] md:left-8 left-2">
                      <h5 className="md:text-[110px] text-[36px] text-transparent  font-extrabold whitespace-nowrap">
                         <span className="what-is-schmeckle-header-top">
-                           How to buy
-                        </span>{" "}
-                        <span className="custom-outline text-mainWhite">
-                           $SHMT
+                           Join the airdrop
                         </span>
                      </h5>
                      <div className="gradient-overlay md:h-[120px] h-[60px] md:top-[20px] top-[2px]"></div>
                   </div>
                   <h5 className="md:text-6xl text-[35px] font-extrabold">
-                     How to buy $SHMT
+                     Join the airdrop
                   </h5>
                </div>
                <p className="md:text-[23px] text-[14px] md:mt-12 mt-4 ">
-                  $SHMT tokens are just a few steps away and you have to suit
-                  your preference for a smooth start we recommend using Phantom
-                  a popular wallet for Solona and Sol tokens once you've got
-                  phantom, purchase some Solona $SOL - this is what you'll user
-                  to trade for $SHMT.
+                  To participate in the Schmeckle Airdrop, you can earn rewards
+                  every 6 hours through the Schmeckle Telegram Bot. Start
+                  collecting unique fan tokens created for Rick and Morty now!
                </p>
                <div className="button-container md:mt-16 mt-6">
-                  <MainButton text="Buy $SHMT" isInvert={true} />
+                  <MainButton text="Coming Soon" isInvert={true} />
                </div>
             </div>
          </div>

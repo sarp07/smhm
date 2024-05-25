@@ -47,7 +47,7 @@ const Hero = () => {
                      text="Tokenomics"
                      isInvert={true}
                      hasIcon={true}
-                     link="/tokenomics"
+                     link="/"
                   />
                   <MainButton
                      icon={Cart}
@@ -56,7 +56,7 @@ const Hero = () => {
                      hasIcon={true}
                   />
                </div>
-               <div className="wallet-address-button md:mt-6 -mt-5 md:mb-0 mb-2">
+               {/* <div className="wallet-address-button md:mt-6 -mt-5 md:mb-0 mb-2">
                   <WalletAddressButton
                      icon={Copy}
                      hasIcon={true}
@@ -64,7 +64,7 @@ const Hero = () => {
                      text="375fp38Luff7SegguJoQiFqUbdzHwu6opZonx47u3fQi"
                      link="https://solscan.io/token/375fp38Luff7SegguJoQiFqUbdzHwu6opZonx47u3fQi"
                   />
-               </div>
+               </div> */}
                <div className="social-icons flex md:gap-[10px] gap-[8px] md:mt-2 -mt-4 z-40">
                   <a href="https://t.me/Schmeckleofficial">
                      <div className="icon md:h-[32px] h-[24px] md:w-[32px] w-[24px] bg-black md:rounded-lg rounded-[5px] flex items-center justify-center md:p-1 p-[3px]">
